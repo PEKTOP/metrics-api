@@ -3,8 +3,10 @@
 ## Metrics
 
 All endpoints have prefix `/v1`.
+
 All endpoints have fields: `id`, `time_start`, `time_end`.
-All fields of endpoints is required.
+
+All fields of endpoints is *required*.
 
 ### Activity
 
