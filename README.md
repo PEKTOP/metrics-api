@@ -45,3 +45,10 @@ As GET parameters:
 
 * `time_start` - `time_start` of metric is greater than or equal to value.
 * `time_end` - `time_start` of metric is less than value.
+
+## Install
+
+For local environment:
+```
+pip install -r requirements/local.txt
+```
