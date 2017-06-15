@@ -10,7 +10,7 @@ class BaseSerializer(Serializer):
 
     def validate(self, data):
         if data['time_start'] >= data['time_end']:
-            raise ValidationError('Start date should be prior to end date')
+            raise ValidationError('Start time should be prior to end time')
         return data
 
     class Meta:

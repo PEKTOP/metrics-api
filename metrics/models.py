@@ -13,7 +13,7 @@ class MetricAbstractModel(models.Model):
 
 class Activity(MetricAbstractModel):
     """
-    Activity by foot
+    Count of steps
     """
     value = models.PositiveIntegerField()
 
